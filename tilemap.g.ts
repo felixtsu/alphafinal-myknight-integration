@@ -361,6 +361,28 @@ namespace myTiles {
             case "lucas_tile4":return lucas_tile4;
             case "myTile17":
             case "lucas_tile19":return lucas_tile19;
+            case "myTile":
+            case "fred_tile1":return fred_tile1;
+            case "myTile0":
+            case "fred_tile2":return fred_tile2;
+            case "myfred_tile1":
+            case "fred_tile3":return fred_tile3;
+            case "myfred_tile2":
+            case "fred_tile4":return fred_tile4;
+            case "myfred_tile3":
+            case "fred_tile5":return fred_tile5;
+            case "myfred_tile4":
+            case "fred_tile6":return fred_tile6;
+            case "myfred_tile5":
+            case "fred_tile7":return fred_tile7;
+            case "myfred_tile6":
+            case "fred_tile8":return fred_tile8;
+            case "myfred_tile7":
+            case "fred_tile9":return fred_tile9;
+            case "myTile1":
+            case "daniel_tile2":return daniel_tile2;
+            case "myTile2":
+            case "daniel_tile1":return daniel_tile1;
         }
         return null;
     })
