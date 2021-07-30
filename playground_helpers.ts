@@ -1,6 +1,6 @@
-// 在此处添加您的代码
+//%icon="\uf152" color="#BCB0E0"
+//%blockNamespace="迷宫"
 namespace playground_helpers {
-    
     
     export function randomshoot (sprite: Sprite, n: number, amn: number, offset: number, delay: number, projectile: string, smn: number, k: number, amx: number, smx: number, d: number) {
         if (k > 0) {
@@ -37,5 +37,25 @@ namespace playground_helpers {
     export function getAllCharacters() : string []{
         let characters = Object.keys(IntegrateGame.defExtSprite[Helper.extSpriteKind.Player])
         return characters
+    }
+
+    function gamestart (character: string) {
+        Player.createPlayer(character, 2, 2)
+        Maze.newRandomMaze()
+    }
+
+    //%block="开始游戏"
+    export function startPlayground() {
+        
+        blockMenu.onMenuOptionSelected(function (option, index) {
+            blockMenu.setControlsEnabled(false)
+            blockMenu.closeMenu()
+            gamestart(option)
+        })
+        blockMenu.setControlsEnabled(false)
+        pause(10)
+        blockMenu.showMenu(playground_helpers.getAllCharacters(), MenuStyle.List, MenuLocation.FullScreen)
+        blockMenu.setControlsEnabled(true)
+
     }
 } 
