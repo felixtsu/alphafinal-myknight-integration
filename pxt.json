@@ -15,7 +15,10 @@
         "[hanzeFinal]MyKnight.DLC": "pub:10388-82344-88727-19872",
         "[LucasFinal]MyKnight.DLC.School": "pub:72671-95882-59439-72616",
         "[ReeseFinal]MyKnight.DLC": "pub:01008-98992-20596-70168",
-        "[JennyFinal]MyKnight.DLC": "pub:05442-70713-38181-90710"
+        "[JennyFinal]MyKnight.DLC": "pub:05442-70713-38181-90710",
+        "[dazunD4]MyKnight.Playground.DLC": "pub:45059-99027-42007-01920",
+        "[fredD5]MyKnight.DLC": "pub:29112-08355-09593-74298",
+        "[danielD5]MyKnight.DLC": "pub:49709-32825-33951-40552"
     },
     "files": [
         "main.blocks",
