@@ -4,18 +4,18 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "maze-extension": "github:cubicbird/maze-extension#v0.1.8",
+        "maze-extension": "github:cubicbird/maze-extension",
         "block-menu": "github:riknoll/arcade-custom-menu#v0.0.1",
         "cubicbird-game-jam": "github:felixtsu/cubicbird-game-jam#v0.0.11",
-        "[FelixD3]MyKnight.DLC.NaughtyMonkey": "pub:44288-74964-92849-14055",
-        "[FelixD3]MyKnight.DangerousSwamp": "pub:53779-60660-89372-37151",
-        "[JennyFinal]MyKnight.DLC": "pub:41757-19414-77481-11572",
-        "[LucasFinal]MyKnight.DLC.School": "pub:82476-67321-36152-27415",
-        "[ReeseFinal]MyKnight.DLC": "pub:30726-45532-13779-63991",
-        "[hanzeFinal]MyKnight.DLC": "pub:63980-08139-40532-19958",
-        "[FelixD3]MyKnight.DLC.PoisonousSnake": "pub:30796-19821-20282-98291",
-        "[FelixD3]MyKnight.DLC.DreadfulTeacher": "pub:52605-41328-93848-01662",
-        "[FelixD3]MyKnight.DLC.ForestBat": "pub:93214-61893-85847-47399"
+        "[Felix]MyKnight.DLC.DreadfulTeacher": "github:felixtsu/myknight-dlc-dreadful-teacher#v0.0.2",
+        "[Felix]MyKnight.DLC.NaughtyMonkey": "pub:17484-87227-30963-20257",
+        "[Felix]MyKnight.DLC.PoisonousSnake": "pub:34409-80634-83390-24146",
+        "[Felix]MyKnight.DangerousSwamp": "pub:87526-11576-49761-06894",
+        "[Felix]MyKnight.DLC.ForestBat": "pub:42281-45335-48700-31206",
+        "[hanzeFinal]MyKnight.DLC": "pub:10388-82344-88727-19872",
+        "[LucasFinal]MyKnight.DLC.School": "pub:72671-95882-59439-72616",
+        "[ReeseFinal]MyKnight.DLC": "pub:01008-98992-20596-70168",
+        "[JennyFinal]MyKnight.DLC": "pub:05442-70713-38181-90710"
     },
     "files": [
         "main.blocks",

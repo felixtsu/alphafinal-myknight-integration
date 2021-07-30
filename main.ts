@@ -1,5 +1,6 @@
 Maze.setMaze(tilemap`幽灵迷宫`, "幽灵迷宫", function () {
     Maze.bornPlaceCR(2, 2)
+    Maze.setMazeInfo("拇指琴", "平平无奇的迷宫")
     Maze.makeWeapon2(playground_helpers.randomWeapon(), sprites.dungeon.darkGroundCenter)
     Maze.setMazeMonsters(function () {
         Maze.setMonstersMembers2("1幽灵", sprites.dungeon.darkGroundCenter)
